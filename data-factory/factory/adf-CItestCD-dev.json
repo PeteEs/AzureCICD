@@ -1,0 +1,9 @@
+{
+	"name": "adf-CItestCD-dev",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cc15b98a-9197-4f67-a512-267c686b92ba",
+		"tenantId": "2ee548e1-6be8-4729-b86e-f482e29d2c9f"
+	}
+}
