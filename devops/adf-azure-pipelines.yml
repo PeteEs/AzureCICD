@@ -1,0 +1,17 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+
+- stage: BUILD
+  jobs:
+  - template: adf-build-job.yml
+    parameters:
+      subscriptionId: 2bcb9f3d-3f6b-4a90-a49e-86d3141c7f73
+      resourceGroupName: Lingaro_piotrsocha_23_02_05_0907_77927
+      dataFactoryName: adf-CItestCD-dev
+      repoRootFolder: /data-factory/
+      packageJsonFolder: /devops/
