@@ -27,5 +27,5 @@ stages:
       resourceGroupName: Lingaro_piotrsocha_23_02_05_0907_77927
       dataFactoryName: adf-CItestCD-dev
       serviceConnectionName: testing-sp-data-factory-cicd-dev
-      overrideParameters: >
-        -LS_AzBlob_connectionString $(BlobConnectionString)
+#      overrideParameters: >
+#        -LS_AzBlob_connectionString $(BlobConnectionString)
