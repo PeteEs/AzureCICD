@@ -1,0 +1,18 @@
+{
+	"name": "ds_Json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "testcontainer"
+			}
+		},
+		"schema": {}
+	}
+}
