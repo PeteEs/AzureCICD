@@ -1,2 +1,1 @@
-# AzureCICD
-Azure CI/CD testing.
+*Azure DevOps pipelines config for Azure Data Factory*
